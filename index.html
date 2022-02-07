@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="player">
+        <div class="cover"></div>
+        <div class="controls">
+            <div class="buttons">
+                <button class="play-pause-bottons" onclick="playAudio()">
+                    <img class="play-pause-botton" src="./assets/svg/play.png" alt="">
+                    <img class="play-pause-botton hide"  src="./assets/svg/pause.png" alt="">
+                </button>
+                <div class="text-block">
+                    <span class="title"></span>
+                    <span class="text"></span>
+                </div>
+                <div class="next-prev-buttons">
+                    <button class="next-button" onclick="prevAudio()">
+                        <img src="./assets/svg/backward.png" alt="">
+                    </button>
+                    <button class="prev-button" onclick="nextAudio()">
+                        <img src="./assets/svg/forward.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="road">
+                <audio class="my_audio" src=""></audio>  
+            </div>
+        </div>
+    </div>
+   <!--  <div class="container gradient">
+		
+		<img class="cover" src="" alt="">
+
+		<div class="player gradient">
+
+			<a class="button" id="play" href="" title=""></a>
+			<a class="button" id="mute" href="" title=""></a>
+		
+				<input type="range" id="seek" value="0" max=""/>
+	
+			<a class="button gradient" id="close" href="" title=""></a>
+			
+		</div> -->
+		
+	</div>
+    <script src="index.js"></script>
+</body>
+</html>
